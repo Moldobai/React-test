@@ -1,0 +1,35 @@
+.QuizCreator {
+    display        : flex;
+    justify-content: center;
+    padding-top    : 20px;
+    flex-grow      : 1;
+    width          : 100%;
+    background     : linear-gradient(65deg, #4758f1d0 0%, #40dd9cc0 100%);
+}
+
+.QuizCreator>div {
+    width    : 100%;
+    max-width: 600px;
+    padding  : 0 20px;
+
+}
+
+.QuizCreator h1 {
+    text-align: center;
+}
+
+.QuizCreator form {
+    display       : flex;
+    flex-direction: column;
+    background    : rgba(141, 215, 228, 0.603);
+    padding       : 18px;
+    border-radius : 40px 12px;
+    box-shadow    : 0 2px 15px rgba(0, 0, 0, 0.900);
+}
+
+.hrinp {
+
+    margin       : 6px 0;
+    border       : 2px solid #000000;
+    border-radius: 3px;
+}
